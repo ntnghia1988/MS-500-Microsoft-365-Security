@@ -24,7 +24,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 9. On the **Name your policy** pane, enter `All company users` in the **Name** field. Click **Next**.
 
-10. On the **Users and domains** pane, enter `All Company`in the **Users** field, select it from the list. Click **Next**.
+10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
 
 11. On the **Protection settings** pane, select the following options and click **Next**:
 
