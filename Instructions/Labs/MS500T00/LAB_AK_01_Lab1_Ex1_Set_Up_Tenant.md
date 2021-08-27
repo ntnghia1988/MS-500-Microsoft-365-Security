@@ -77,7 +77,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 23. Close the **Organization information** window.
 
-24. In the Settings window select **Release preferences**.
+24. In the Settings window select **Release preferences**. If **Release Preferences** doesn't display under settings by default, use 'Search all settings' at top right corner to search for 'Release preferences'
 
 25. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save**.  
 
