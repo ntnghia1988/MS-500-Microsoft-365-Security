@@ -148,7 +148,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 	- Select location: **United States**
 
-	- Licenses: Under **Assign user a product license**, select **Office 365 E5** and **Enterprise Mobility + Security E5**. 
+	- Licenses: Under **Assign user a product license**, select **Microsoft 365 E5** and **Enterprise Mobility + Security E5**. 
 
 7. Select **Next**.
 
