@@ -35,7 +35,7 @@ In your policy, set:
 
 
 
-7.  In the **Assignment** section, click **Users and groups**.
+7.  In the **Assignment** section, click **0 users and groups selected**.
 
 
 
