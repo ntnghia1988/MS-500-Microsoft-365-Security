@@ -106,15 +106,13 @@ We will initialize the what if policy evaluation tool for:
 
 
 
-    a. Select **Cloud apps or actions**.
+    a. On the **Cloud apps, actions, or authentication context** page, select **Any cloud app**.
 
-    b. On the **Cloud apps or actions page**, select **Select apps**.
+    b. Click **Select apps**.
 
-    c. Click **Select**.
+    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
-    d. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
-
-    e. On the cloud apps or actions page, select **Done**.
+    d. On the cloud apps or actions page,  select 'X' on the top right corner to close the window..
 
 4.  In the What If page select **What If**.
 
