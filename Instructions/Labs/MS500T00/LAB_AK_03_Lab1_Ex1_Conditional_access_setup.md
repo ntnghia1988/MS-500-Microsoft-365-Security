@@ -43,10 +43,9 @@ In your policy, set:
 
 
     a. Click **Select users and groups**, and then select **Users and groups**.
+    
 
-    b. Click **Select**.
-
-    c. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
+    b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
 
 
 9.  Back on the New page click **Cloud apps or actions**.
