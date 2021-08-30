@@ -51,7 +51,7 @@ If the device does not meet these requirement, the device should be marked as no
 
 17. On the **Platforms settings** tab, in the **Platform** column, on the rows with **iOS/iPadOS** and **macOS**, click **Block**. Click **Review + save** and then click **Save**.
 
-18. Scroll left to the **Enrol devices | Enrollment restrictions** blade. In the **Device Limit Restrictions** section, click **All Users** and then click **Properties**.
+18. Scroll left to the **Enroll devices | Enrollment restrictions** blade. In the **Device Limit Restrictions** section, click **All Users** and then click **Properties**.
 
 19. In the **Device limit** section, click **Edit**, then change the value to **3**.  
 
