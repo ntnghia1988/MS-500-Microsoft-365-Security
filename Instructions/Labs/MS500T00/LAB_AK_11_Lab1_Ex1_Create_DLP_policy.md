@@ -21,7 +21,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 7. On the **Choose locations** page, select the **Protect content in Exchange email, Teams chats, and channel messages and OneDrive and SharePoint documents** option and then select **Next**.
 
-8. On the **Customize the type of content you want to protect** page, the option **Find content that contains:** needs to be selected, which it should be by default.
+8. Under **Define plicy settings**, select **Create or customize advanced DLP rules**. On the **Customize advanced DLP rules** page, the option **Find content that contains:** needs to be selected, which it should be by default.
 
 9. Under **You must select at least one classification type**, select **Edit.**
 
