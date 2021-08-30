@@ -1,4 +1,4 @@
-# Module 8 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
+# Module 7 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
 
 ### Scenario
 
@@ -75,7 +75,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 5.  On the **New** blade, click **Cloud apps or actions**, click the **Select apps** radio button, click **Select**, click **Office 365 Exchange Online**, and then click **Select**.
 
-6.  On the **New** blade, click **Conditions** > **Device platforms**. In the **Configure** section, click **Yes**, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
+6.  On the **New** blade, click **Conditions** > **0 conditions selected**. Under **Device platforms** label, click **Not configured**. Under **Device platforms** pop-up window, click **Yes** below configure, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
 
 7.  On the **New** blade under **Access controls**, click **Grant**, click the **Require device to be marked as compliant** check box, and then click **Select**.
 
