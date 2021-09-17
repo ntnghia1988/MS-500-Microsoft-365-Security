@@ -16,9 +16,9 @@ Role assignments become "stale" when users have privileged access that they don'
 1.  Enter the following details and click **Start**:
 
       - Review name:  `Global Admin Review`
-      - Start Date:  `Today's Date` 
-      - Frequency: `One time`
-      - End Date:  `End of next month`
+      - Start Date:  `Enter Today's Date` 
+      - Frequency: `Drop down to One time`
+      - End Date:  `Enter End of next month`
       - Review role membership:  `Global Administrator`
       - Reviewers:  `Holly Dickson`
  

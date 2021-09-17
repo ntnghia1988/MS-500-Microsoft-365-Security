@@ -1,4 +1,4 @@
-# Module 11 - Lab 11 - Exercise 1 - Manage DLP Policies  
+# Module 10 - Lab 1 - Exercise 1 - Manage DLP Policies  
 
 
 In your role as Holly Dickson, Adatum’s Security Administrator, you have Microsoft 365 deployed in a virtualized lab environment. As you proceed with your Microsoft 365 pilot project, your next steps are to implement Data Loss Prevention (DLP) policies at Adatum. You will begin by creating a custom DLP policy, and then you will test DLP policies related to email message archiving and emails with sensitive data. 
@@ -21,7 +21,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 7. On the **Choose locations** page, select the **Protect content in Exchange email, Teams chats, and channel messages and OneDrive and SharePoint documents** option and then select **Next**.
 
-8. On the **Customize the type of content you want to protect** page, the option **Find content that contains:** needs to be selected, which it should be by default.
+8. Under **Define plicy settings**, select **Create or customize advanced DLP rules**. On the **Customize advanced DLP rules** page, the option **Find content that contains:** needs to be selected, which it should be by default.
 
 9. Under **You must select at least one classification type**, select **Edit.**
 

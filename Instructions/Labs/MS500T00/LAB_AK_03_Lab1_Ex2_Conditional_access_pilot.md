@@ -28,14 +28,14 @@ In this exercise you will configure a conditional access policy enabling Azure M
   
       ![Screenshot](../Media/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
   
-2.  Browse to **Azure Active Directory**, click **Security** and select **Conditional access** on the **Protect** Blade.
+2.  Browse to **Azure Active Directory**, click **Security** and select **Conditional access** on the **Policies** Blade.
 
 
 3.  Select **+ New policy**
 
 
 4.  Name your policy `MFA Pilot`
-5.  Click **users and groups**, select the **Select users and groups** radio button.  Check the box for **Users and groups** and click **Select**.
+5.  Under **Users and groups**, click **0 users and groups selected**. Choose **Select Users and groups** radio button and check the box **Users and groups** Select.
     * Select your pilot group `MFA Pilot`
     * Click **Select**
 
