@@ -28,7 +28,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 11. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
 
-12. In the **Authentication methods | Authentication method policy (Preview)** page, in the middle pane under the **Manage** section, select **Password protection.**
+12. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
 
 13. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
 

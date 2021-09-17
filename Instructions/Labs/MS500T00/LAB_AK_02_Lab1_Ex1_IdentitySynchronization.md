@@ -33,11 +33,12 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 3.	Click on **Use express settings**.   
 4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of 
 **holly@M365xZZZZZZ.onmicrosoft.com** with password `Pa55w.rd` and click Next.   
-5.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.   
-6.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
-7.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
-8.	Wait for the installation to complete (this may take several minutes).   
-9.	Select **Exit**.   
+5.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%` and select **Next**.   
+6.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.
+7.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
+8.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
+9.	Wait for the installation to complete (this may take several minutes).   
+10.	Select **Exit**.   
 
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 

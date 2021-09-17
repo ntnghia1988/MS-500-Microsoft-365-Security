@@ -35,7 +35,7 @@ In your policy, set:
 
 
 
-7.  In the **Assignment** section, click **Users and groups**.
+7.  In the **Assignment** section, click **0 users and groups selected**.
 
 
 
@@ -43,10 +43,9 @@ In your policy, set:
 
 
     a. Click **Select users and groups**, and then select **Users and groups**.
+    
 
-    b. Click **Select**.
-
-    c. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
+    b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
 
 
 9.  Back on the New page click **Cloud apps or actions**.
@@ -107,15 +106,13 @@ We will initialize the what if policy evaluation tool for:
 
 
 
-    a. Select **Cloud apps or actions**.
+    a. On the **Cloud apps, actions, or authentication context** page, select **Any cloud app**.
 
-    b. On the **Cloud apps or actions page**, select **Select apps**.
+    b. Click **Select apps**.
 
-    c. Click **Select**.
+    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
-    d. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
-
-    e. On the cloud apps or actions page, select **Done**.
+    d. On the cloud apps or actions page,  select 'X' on the top right corner to close the window..
 
 4.  In the What If page select **What If**.
 

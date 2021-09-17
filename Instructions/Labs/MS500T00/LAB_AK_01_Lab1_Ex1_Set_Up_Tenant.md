@@ -77,7 +77,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 23. Close the **Organization information** window.
 
-24. In the Settings window select **Release preferences**.
+24. In the Settings window select **Release preferences**. If **Release Preferences** doesn't display under settings by default, use 'Search all settings' at top right corner to search for 'Release preferences'
 
 25. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save**.  
 
@@ -148,7 +148,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 	- Select location: **United States**
 
-	- Licenses: Under **Assign user a product license**, select **Office 365 E5** and **Enterprise Mobility + Security E5**. 
+	- Licenses: Under **Assign user a product license**, select **Microsoft 365 E5** and **Enterprise Mobility + Security E5**. 
 
 7. Select **Next**.
 
@@ -227,7 +227,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**.
 
-4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**.
+4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by defualt for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
 
 5. Leave the Client 1 VM and the Security and Compliance Center open.
 
