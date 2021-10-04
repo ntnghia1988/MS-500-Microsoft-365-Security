@@ -1,4 +1,4 @@
-# Module 12 - Lab 1 - Exercise 2 - Conduct a Data Subject Request 
+# Module 14 - Lab 1 - Exercise 2 - Conduct a Data Subject Request 
 
 Data subject requests (DSRs) are used to search for and extract all known information on a person of interest. A DSR can come from the person in question or from an authorized source. In this exercise you will configure and export a DSR from the Microsoft 365 Security and Compliance center.
 
