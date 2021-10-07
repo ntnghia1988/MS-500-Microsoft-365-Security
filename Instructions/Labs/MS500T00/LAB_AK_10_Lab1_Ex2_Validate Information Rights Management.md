@@ -77,8 +77,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
-	- Server Resource Quota: leave the default value of 300
-
+	
 7. Select **OK**.
 
 8. Wait for the new SharePoint site to be created, which may take up to 15 minutes. The new Marketing site collection will appear in the **Active sites** collection list, but the “Processing” circle will continue to spin to the right of the site collection while it continues being created. 
