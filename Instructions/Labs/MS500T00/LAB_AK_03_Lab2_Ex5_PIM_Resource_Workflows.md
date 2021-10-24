@@ -28,7 +28,7 @@
 
 1.  Select **Global Administrator**.
 
-1.  Select **+ Add assignments** and select **Patti Fernandez**. Click **Select**.
+1.  Select **+ Add assignments** and under **Select member(s)** select **Patti Fernandez**. Click **Select**.
 
 2.  Click **Next** and then click **Assign**.
 
