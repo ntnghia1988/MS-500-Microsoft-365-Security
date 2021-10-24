@@ -22,7 +22,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
 
-9.  In **Internet Explorer**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
+9.  In **Microsoft Edge**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
 10. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
 
@@ -64,7 +64,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 19. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 
-20. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
+20. In the **Sign in** window, enter **AllanD@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
 
 21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
