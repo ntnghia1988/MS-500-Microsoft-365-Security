@@ -106,7 +106,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 20. In the top-right corner of the page, select **Share**.
 
-21. In the **Share ‘Marketing’** window, in the **Invite people** box, enter `Alex Wilber`. Select **Alex Wilber** that appears in a drop-down menu, and then select **Share**.
+21. In the **Share ‘Marketing’** window, in the **Invite people** box, enter `Alex Wilber`. Select **Alex Wilber** that appears in a drop-down menu, and then select **Share**. Click **Ok**.
 
 22. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (**LON-CL2**) VM.<br/>
 
