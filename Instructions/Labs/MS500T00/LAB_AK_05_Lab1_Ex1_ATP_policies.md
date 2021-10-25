@@ -66,41 +66,41 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 7. At the bottom of the detail pane, below the body of the message, is a taskbar. On the taskbar, select the **Insert hyperlink** icon to display the Insert link window.
 
-9. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: `http://tailspintoys.com/aboutus/freetoys`.
+8. In the **Insert link** window, the text that you highlighted in the body of the message should be displayed in the **Display as** field. In the **Web address (URL)** field, enter the following URL: `http://tailspintoys.com/aboutus/freetoys`.
 
-10. Select **OK**.
+9. Select **OK**.
 
-11. In the body of the email, the message should still be selected. Click anywhere in the body of the message to remove the highlighting. The color of the text should now be blue and it should be underlined, indicating that this message is hyperlinked to a URL.
+10. In the body of the email, the message should still be selected. Click anywhere in the body of the message to remove the highlighting. The color of the text should now be blue and it should be underlined, indicating that this message is hyperlinked to a URL.
 
-12. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
+11. Select **Send** in the menu bar that appears above the message (or the **Send** button at the bottom of the page).
 
-13. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you must switch the Client 2 VM (LON-CL2).
+12. You now want to open the MOD Administrator&#39;s Inbox in Outlook and validate whether the ATP policy you created in the prior task worked on the email that you just sent from Holly. To do this, you must switch the Client 2 VM (LON-CL2).
 
-14. Log into the VM as the **Admin** account by entering **Ps55w.rd** in the **Password** field if necessary.
+13. Log into the VM as the **Admin** account by entering **Ps55w.rd** in the **Password** field if necessary.
 
-15. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: `https://outlook.office365.com`
+14. Select the **Microsoft Edge** icon in the taskbar, maximize the window and then enter the following URL in the address bar: `https://outlook.office365.com`
 
-16. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and then select **Next**.
+15. Since you want to sign in as the MOD Administrator, in the **Sign-in** window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and then select **Next**.
 
-17. In the **Enter password** window, enter the password provided by your lab hosting provider and select **Sign in**.  If you are requested to provice self-service password information click **cancel**.
+16. In the **Enter password** window, enter the password provided by your lab hosting provider and select **Sign in**.  If you are requested to provice self-service password information click **cancel**.
 
-18. Close the **Let Microsoft Edge save and fill your password for this site next time?** banner by selecting **Never**.
+17. Close the **Let Microsoft Edge save and fill your password for this site next time?** banner by selecting **Never**.
 
-19. On the **Stay signed in?** dialog box, select the **Don't show this again** check box and then select **Yes.**
+18. On the **Stay signed in?** dialog box, select the **Don't show this again** check box and then select **Yes.**
 
-20. Close the **Welcome** window that appears.
+19. Close the **Welcome** window that appears.
 
-21. In the MOD Administrator&#39;s **Inbox**, open the email that was sent by Holly.
+20. In the MOD Administrator&#39;s **Inbox**, open the email that was sent by Holly.
 
-22. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with `https://nam03.safelinks.protection.outlook.com`.
+21. When you hover over the blue link that appears in the body of the email, you can see a long URL in the bottom of the browser window; this URL starts with `https://nam03.safelinks.protection.outlook.com`.
 
     When you select the hyperlink to open it, a new tab in **Edge** opens that displays the following warning message: **Opening this website might not be safe.** This message indicates that your ATP Safe Links policy is working correctly and access to the URL is blocked with ATP Safe Links.
 
-23. Leave the Client 2 VM open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
+22. Leave the Client 2 VM open and leave Outlook open to the MOD Administrator&#39;s Inbox for later.
 
 ### Task 3 – Create a Safe Attachment policy and turn on ATP for SharePoint, OneDrive, and Microsoft Teams
 
-In this task, you will, and you&#39;ll create an ATP Safe Attachments policy that will test email attachments for malware that are sent to recipients within the M365xZZZZZZ.on microsoft.com domain. You will configure the policy so that if an attachment is blocked, it will be removed from the email that is sent to the recipient, and a copy of the email will be redirected to Joni Sherman for additional review.
+In this task, you will, and you&#39;ll create an ATP Safe Attachments policy that will test email attachments for malware that are sent to recipients within the WWLxZZZZZZ.on microsoft.com domain. You will configure the policy so that if an attachment is blocked, it will be removed from the email that is sent to the recipient, and a copy of the email will be redirected to Joni Sherman for additional review.
 
 1. Switch back to your Client 1 VM (**LON-CL1**). You should still be logged into your Client 1 VM as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
@@ -122,7 +122,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 10. Under the **Redirect messages with detected attachments** section, select **Enable redirect**.
 
-11. In the **Send messages that contain blocked, monitored, or replaced attachments to the specified email address** field, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+11. In the **Send messages that contain blocked, monitored, or replaced attachments to the specified email address** field, enter **JoniS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider), select **Next**
 
 1. On the **Review** window, note the two messages displayed regarding the **Safe Attachents detection response:** and **Redirect attachments:** options that were selected. select **Submit**.
 
