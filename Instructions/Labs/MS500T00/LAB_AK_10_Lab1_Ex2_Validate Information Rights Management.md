@@ -8,43 +8,43 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 1. On the Client 1 VM (**LON-CL1**), you should still be logged into the Microsoft 365 admin center as Holly Dickson. In your **Microsoft Edge** browser, you should still have the **Office 365 home** page open on a tab. Select the **Office 365 home page** tab, and then select **Outlook.** **Note**: If you are prompted to select a time zone, then choose one and select **Save**. 
 
-4. At the top of the left navigation pane, select **New message** to create a new email.
+2. At the top of the left navigation pane, select **New message** to create a new email.
 
-5. You want to send the email to **Alex Wilber**. Type `Alex` in the **To** field, which displays a dialog box that displays all users whose Display Name starts with Alex (of which there is just one). Select **Alex Wilber**.
+3. You want to send the email to **Alex Wilber**. Type `Alex` in the **To** field, which displays a dialog box that displays all users whose Display Name starts with Alex (of which there is just one). Select **Alex Wilber**.
 
-6. Enter a **Subject**, and then type some text in the message body. 
+4. Enter a **Subject**, and then type some text in the message body. 
 
-7. In the menu bar above the message pane, select **Encrypt**.
+5. In the menu bar above the message pane, select **Encrypt**.
 
-8. The message will now have a lock icon and list it as encrypted. To the right of the lock icon select **Change permissions**.
+6. The message will now have a lock icon and list it as encrypted. To the right of the lock icon select **Change permissions**. 
 
-9. In the Change permissions window click the drop-down and select **Do not forward**.  Select **OK**.
+7. In the Change permissions window click the drop-down and select **Do not forward**. If change permission option is not available then select the horizontal ellipsis in the menu bar, select **Encrypt** and then select **Do Not Forward**.  Select **OK**.
 
-10. Select the **Send arrow** to send the email. 
+8. Select the **Send arrow** to send the email. 
 
-11. Switch to the Client 2 VM (**LON-CL2**).
+9. Switch to the Client 2 VM (**LON-CL2**).
 
-14. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to `https://portal.office.com`. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
+10. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to `https://portal.office.com`. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
 
-15. In the **Office 365 home page**, select **Outlook**. 
+11. In the **Office 365 home page**, select **Outlook**. 
 
-16. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
+12. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
 
-17. If a **We’ve updated Outlook** window appears, select **Try the new Outlook**. 
+13. If a **We’ve updated Outlook** window appears, select **Try the new Outlook**. 
 
-18. If a **Welcome** window appears, close it. 
+14. If a **Welcome** window appears, close it. 
 
-19. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
+15. Verify that Alex received an email from Holly that is IRM protected. IRM protected emails display a lock icon to the right of the message. Select the message to display it in the right pane.
 
-20. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
+16. In the message pane for this email, a message that says **This messsage is encrypted and recipients can't forward it** should appear.
 
-21. In the message pane for this email, note how the **Forward** arrow is disabled. 
+17. In the message pane for this email, note how the **Forward** arrow is disabled. 
 
-22. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
+18. Select the **ellipsis icon (More actions)** to the right of the disabled Forward arrow. In the menu that appears, note how both the **Forward** and **Print** options are disabled. 
 
-23. In your **Edge** browser, close the **Outlook** tab. 
+19. In your **Edge** browser, close the **Outlook** tab. 
 
-24. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
+20. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
 
  
 ### Task 2 - Validate Information Rights Management for SharePoint Online
@@ -75,7 +75,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 	- Time zone: select the appropriate time zone in which the team site is located 
 
-	- Administrator: Enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
+	- Administrator: Enter **Holly@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select the **Check Names** icon to the right of the field; once the username is validated, it will be replaced with **Holly Dickson.**
 
 	
 7. Select **OK**.
@@ -84,7 +84,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 9. Once the Marketing site collection is created, **New** will appear to the right of the site collection.
 
-10. In your web browser, open a new tab and connect to: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your tenant ID provided by your lab hosting provider)
+10. In your web browser, open a new tab and connect to: `https://WWLxZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your tenant ID provided by your lab hosting provider)
 
 11. On the **Marketing** site, in the left navigation pane, select **Documents**. 
 
@@ -112,9 +112,9 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 	‎Switch to the **LON-CL2** VM, where you should still be logged into the Microsoft 365 admin center as Alex from the prior task.  
 
-23. ‎In the **Microsoft Edge** browser on LON-CL2, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: `https://M365xZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+23. ‎In the **Microsoft Edge** browser on LON-CL2, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: `https://WWLxZZZZZZ.sharepoint.com/sites/marketing` (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
-24. In the **Pick an Account** window, select **Alex Wilber** if his account is listed; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) the password is likely the same as your MOD admin assigned by your lab hosting provider.
+24. In the **Pick an Account** window, select **Alex Wilber** if his account is listed; otherwise, select **Use another account** and log in as **AlexW@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) the password is likely the same as your MOD admin assigned by your lab hosting provider.
 
 25. On the **taskbar of your VM**, select the **Search** icon and type `WordPad` in the Search field. Select **WordPad** that’s displayed.
 
