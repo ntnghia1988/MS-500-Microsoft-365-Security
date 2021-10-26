@@ -8,7 +8,7 @@ Data subject requests (DSRs) are used to search for and extract all known inform
 
 Holly Dickson is Adatum’s Security and Compliance Administrator. In her role as the company’s Microsoft 365 Global Administrator, she is responsible for implementing Adatum’s Microsoft 365 pilot project. Since Adatum has several European subsidiaries, properly managing GDPR data subject requests is a key task that must be tested so that the company can successfully implement this feature. In this task, Holly will create a DSR for herself on behalf of a request made by the Human Resource department.
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@WWLxZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
 
 2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com` .
 
@@ -17,6 +17,8 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 ‎**Note:** To perform this task, Holly needs to be assigned to the eDiscovery Manager role group so that she has the necessary permissions. You added Holly to this role group in the prior exercise at the same time that you added Joni Sherman to the role group. The reason we did this is explained below following the search query. 
 
 4. In the **Data subject requests** window, select **+New DSR case**. This initiates the New DSR case wizard.
+
+‎**Note:** A notification message appears to inform that **Data subject requests** has a new name **User data search** and location. 
 
 5. In the **Name your case** page, enter the following information and then select **Next**:
 
@@ -57,35 +59,35 @@ When someone files a DSR, you typically need to export the results. In this task
 
 1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **More > Export report** at the top of the page.
 
-1. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
+2. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
 
-1. Scroll down through the **Export report** window to see the estimated items that will be exported. 
+3. Scroll down through the **Export report** window to see the estimated items that will be exported. 
 
-1. Select **Generate report**.
+4. Select **Generate report**.
 
-1. If a **Client Error** dialog box appears it may be a result of the search still running, select **OK** and wait for the search to complete to generate the report again. 
+5. If a **Client Error** dialog box appears it may be a result of the search still running, select **OK** and wait for the search to complete to generate the report again. 
 
-1. Select the **Exports** tab from the top menu and open the **Holly Dickson Subject Request_ReportsOnly** export request.
+6. Select the **Exports** tab from the top menu and open the **Holly Dickson Subject Request_ReportsOnly** export request.
 
-1. In the right pane select **Download report** and when the download bar appears at the lower end of your browser, select **Open**.
+7. In the right pane select **Download report** and when the download bar appears at the lower end of your browser, select **Open**.
 
-1. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Office 365 eDiscovery Export Tool**. Select the **Install** button.
+8. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Office 365 eDiscovery Export Tool**. Select the **Install** button.
 
-1. When the **eDiscovery Export Tool** is installed, you need to copy the unique export key to the first text field. Go back to the **Holly Dickson Subject Request_ReportsOnly** export request in your browser window and below **Export key**, select **Copy to clipboard**.
+9. When the **eDiscovery Export Tool** is installed, you need to copy the unique export key to the first text field. Go back to the **Holly Dickson Subject Request_ReportsOnly** export request in your browser window and below **Export key**, select **Copy to clipboard**.
 
-1. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
+10. Switch back to the **eDiscovery Export Tool** and paste the export key (press Ctrl+V) into the first text field.
 
-1. Select the **Browse** button and in the **Browse For Folder** window, navigate to **Documents**. Select **OK**.
+11. Select the **Browse** button and in the **Browse For Folder** window, navigate to **Documents**. Select **OK**.
 
-1. Start the export process by selecting **Start**.
+12. Start the export process by selecting **Start**.
 
-1. As soon as the **eDiscovery Export Tool** shows three green checkmarks with a **The export completed successfully.** message below, the export is done, and you can view the results by opening the blue link next to **Export Location**.
+13. As soon as the **eDiscovery Export Tool** shows three green checkmarks with a **The export completed successfully.** message below, the export is done, and you can view the results by opening the blue link next to **Export Location**.
 
-1. You can now see a **results.csv** file that contains a report about all DSR case items found.
+14. You can now see a **results.csv** file that contains a report about all DSR case items found.
 
-1. Close the **eDiscovery Export Tool** with the **Close** button, and then close the **eDiscovery** browser tab.
+15. Close the **eDiscovery Export Tool** with the **Close** button, and then close the **eDiscovery** browser tab.
 
-1. Leave **Holly** signed in at the **Security &amp; Compliance Center**.
+16. Leave **Holly** signed in at the **Security &amp; Compliance Center**.
 
 You have successfully exported a DSR case report to your local computer. Because the report contains only a report and not the message or document content, you could not process this report to fulfill the DSRs legal requirements.
 
