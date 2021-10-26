@@ -2,7 +2,7 @@
 
 ##Lab Setup
 
-Certain features within the Microsoft 365 Admin Center are no longer comptible with Internet Explorer. For that reason we suggest using Microsoft Edge as an alternative.
+Certain features within the Microsoft 365 Admin Center are no longer compatible with Internet Explorer. For that reason we suggest using Microsoft Edge as an alternative.
 
 1. Hello User, please Switch to MS-500-LON-DC1 click Ctrl+Alt+Delete to activate the Ctrl + Alt + Delete sequence and bring up the logon page.
 
