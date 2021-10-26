@@ -8,7 +8,7 @@ You are now at the point in your pilot project where you want to test policies. 
 
 In the previous exercise, you created a custom DLP policy that searches emails for sensitive information related to U.S. Social Security numbers in your Adatum tenant. In this exercise, you will send an email with a social security number from Holly Dickson to Alex Wilber.
 
-1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of `Pa55w.rd`. 
+1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@WWLxZZZZZZ.onmicrosoft.com)** with a password of `Pa55w.rd`. 
 
 2. You will now send an email from Holly to Alex; the email will contain US Social Security numbers. In **Microsoft Edge**, the **Outlook on the web** tab should still be open for Holly. Select the **Outlook on the web** tab.  If not open a browser to `https://portal.office.com`, make sure you are signed-in as Holly Dickson and select **Outlook**.
 
@@ -23,11 +23,11 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 	- Message area: type `This customer has social security number: 123-45-6789`.
 
 
-6. Select **Send.**
+5. Select **Send.**
 
-7. You will now send a second message from Holly to Alex that contains multiple social security numbers.  In **Outlook**, in the upper left corner of the screen, select **New message**. 
+6. You will now send a second message from Holly to Alex that contains multiple social security numbers.  In **Outlook**, in the upper left corner of the screen, select **New message**. 
 
-8. In the message pane that appears on the right-side of the screen, enter the following information:
+7. In the message pane that appears on the right-side of the screen, enter the following information:
 
 	- To: start typing `Alex` and a drop-down menu displays with users whose name begins with that. Select **Alex Wilber**.
 
@@ -35,47 +35,47 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 	- Message area: `SSN = 123 45 6789 and another customer SSN 111 11 1111 and a third 222 22 2222`
 
-11. Select **Send.**
+8. Select **Send.**
 
-12. Switch to the Client 2 VM (**LON-CL2**). 
+9. Switch to the Client 2 VM (**LON-CL2**). 
 
-13. If you need to sign into the VM, the **Admin** account should appear by default, so enter `Pa55w.rd` in the **Password** field to log in. 
+10. If you need to sign into the VM, the **Admin** account should appear by default, so enter `Pa55w.rd` in the **Password** field to log in. 
 
-14. Switch to the Client 2 VM (**LON-CL2**).
+11. Switch to the Client 2 VM (**LON-CL2**).
 
-15. In the **Edge** browser, if there are still signed in sessions, sign out of the current user account and close all **Edge** browser tabs.
+12. In the **Edge** browser, if there are still signed in sessions, sign out of the current user account and close all **Edge** browser tabs.
 
-16. Open your **Edge** browser, maximize the window and enter the following URL in the address bar: `https://outlook.office365.com`
+13. Open your **Edge** browser, maximize the window and enter the following URL in the address bar: `https://outlook.office365.com`
 
-17. You want to sign into **Outlook on the web** as **Alex Wilber**. If the **Pick an account** window appears, Alex’s account won’t appear since she hasn’t signed in before. Therefore, select **Use another account**. 
+14. You want to sign into **Outlook on the web** as **Alex Wilber**. If the **Pick an account** window appears, Alex’s account won’t appear since she hasn’t signed in before. Therefore, select **Use another account**. 
 
-18. In the **Sign in** window, enter **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select **Next.**
+15. In the **Sign in** window, enter **AlexW@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and then select **Next.**
 
-19. In the **Enter password** window, enter Alex's password (hint: it's probably the same as the MOD admin password) and then select **Sign in**.
+16. In the **Enter password** window, enter Alex's password (hint: it's probably the same as the MOD admin password) and then select **Sign in**.
 
-20. In the **Stay signed in?** window, select **Don’t show this again** and then select **Yes**.
+17. In the **Stay signed in?** window, select **Don’t show this again** and then select **Yes**.
 
-21. If you approach the site for the first time, you may be asked for your language setting and your time zone:
+18. If you approach the site for the first time, you may be asked for your language setting and your time zone:
 
 	- From the **Language** dropdown select **English (United States).**
 
 	- From the **Time zone** dropdown select your preferred time zone.
 
-22. Select **Save**.
+19. Select **Save**.
 
-23. If a window is displayed asking whether you want to try the new outlook, select **Try the new Outlook.**
+20. If a window is displayed asking whether you want to try the new outlook, select **Try the new Outlook.**
 
-24. If a **Welcome** window appears, then close it now.
+21. If a **Welcome** window appears, then close it now.
 
-25. In **Outlook on the web**, in Alex’s **Inbox**, you should see the email message that Holly just sent to Alex containing a single SSN number.
+22. In **Outlook on the web**, in Alex’s **Inbox**, you should see the email message that Holly just sent to Alex containing a single SSN number.
 
-26. The email with multiple SSNs should have been blocked and a warning message should appear in Holly's inbox (on LON-CL1) that looks something like this:
+23. The email with multiple SSNs should have been blocked and a warning message should appear in Holly's inbox (on LON-CL1) that looks something like this:
 
      ![Screenshot](../Media/DLP_policy_validation.png)
 
-27. Delete the message from Alex’s Inbox as the last operation in this exercise. You have now successfully tested your custom DLP policy.
+24. Delete the message from Alex’s Inbox as the last operation in this exercise. You have now successfully tested your custom DLP policy.
 
-28. Leave both client VMs open for the next lab. Do not close any of the browser tabs.
+25. Leave both client VMs open for the next lab. Do not close any of the browser tabs.
 
 **TROUBLESHOOTING this lab**
 
