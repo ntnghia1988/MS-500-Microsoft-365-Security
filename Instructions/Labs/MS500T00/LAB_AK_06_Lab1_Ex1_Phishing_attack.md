@@ -69,4 +69,3 @@ Holly Dickson is concerned that some users in her organization may require educa
 	**Note**: Since you can run multiple spear phishing simulation campaigns simultaneously you could create different simulations for different users and groups.  These different simulations might have enticements that are more appropriate for different users.
  
 
-# Continue to exercise 2.
