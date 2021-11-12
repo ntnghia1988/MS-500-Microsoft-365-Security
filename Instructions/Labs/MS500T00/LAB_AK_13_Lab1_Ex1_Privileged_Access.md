@@ -1,4 +1,4 @@
-# Module 11 - Lab 1 - Exercise 1 - Set up privileged access management and process a request
+# Module 13 - Lab 1 - Exercise 1 - Set up privileged access management and process a request
 
 
 In your role as Holly Dickson, Adatum’s Security Administrator, you have been tasked with establishing privileged access management in Microsoft 365 as an additional layer of access management for global admins. Specifically, Adatum wants to prevent global admins from moving Exchange Mailboxes without getting specific approval from the MOD Administrator.
