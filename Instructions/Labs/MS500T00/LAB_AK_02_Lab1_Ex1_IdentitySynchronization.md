@@ -42,14 +42,25 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 
 ### Task 4 - Validate the results of directory synchronization and license a user. 
 
+**Note**  When your M365 subscription was provisioned, all available licenses were allocated. Because we need a few licenses for this and future labs, you can remove
+license assignments for a few users.
+
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
 2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
 3.	Navigate to the **Active Users**.  
-4.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  Select Abbie Parsons.  Abbie is a user that was only in the AD DS domain prior to our synchronization. 
-5.	Edit Abbie Parsons Product licenses as follows: 
+4.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  
+5.	Edit the following users to remove **both** the Microsoft 365 E5 and the Enterprise Mobility + Security E5 licenses:
+	-Debra Berger
+	-Irvin Sayers
+	-Johanna Lorenz
+	-Lidia Hallowey
+	-Pradeep Gupta
+**Note**  When your M365 subscription was provisioned, all available licenses were allocated. Because we need a few licenses for this and future labs, you can remove
+license assignments for a few users that don't need them.
+6.	Select Abbie Parsons.  Abbie is a user that was only in the AD DS domain prior to our synchronization. Edit Abbie Parsons Product licenses as follows: 
 	- Location = United Kingdom
 	- Product License = Enterprise Mobility + Security E5
-6.	Click **Save changes** to make the changes. Close the window.
+7.	Click **Save changes** to make the changes. Close the window.
 
 You have successfully synced local ADATUM users into Office 365 and licensed the synced user Abbie Parsons.
 
