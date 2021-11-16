@@ -17,7 +17,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 4.  On the left select **Users** and then select **Active users**.
 
-5.  On the Active users screen click **Multi-factor authentication**.
+5. On the Active users screen click the horizontal ellipsis on the top pane then click **Multi-factor authentication**.
 
 7.  In the multi-factor authentication screen View **Global Administrators** then select **Holly Dickson** and select **Enable** under quick steps.
 
@@ -48,13 +48,13 @@ Holly Dickson is concerned that some users in her organization may require educa
 1. Leave the default settings on the **Assign training** screen. Click **Next**.
 1. On the **Training landing page** screen, click **Next**.
 1. On the **Launch Details** page, ensure that **Launch this simulation as soon as I'm done** is selected. Click **Next**.
-1. On the **Review Simulation** screen, click **Submit**.
+1. On the **Review Simulation** screen, click **Submit**. Click **Done**
 
 ### Task 3: Confirm target received phishing email attack
 
 1.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
  
-1.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant.  Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
+1. Log in as the user Patti Fernandez **PattiF@WWLxZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant. Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
 1.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
 
@@ -69,3 +69,4 @@ Holly Dickson is concerned that some users in her organization may require educa
 	**Note**: Since you can run multiple spear phishing simulation campaigns simultaneously you could create different simulations for different users and groups.  These different simulations might have enticements that are more appropriate for different users.
  
 
+# End of lab.
