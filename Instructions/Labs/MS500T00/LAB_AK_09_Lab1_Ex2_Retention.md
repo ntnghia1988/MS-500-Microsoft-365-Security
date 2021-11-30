@@ -86,17 +86,17 @@ As part of your pilot project for Adatum, you will create a retention policy in 
 
 4. On the **Name your policy** page, type `Exchange Preservation` in the **Name** field and select **Next**.
 
-1. In the **Choose locations** page,  deselect all sliders except for **Exchange email.**. Click **Next**.
+5. In the **Choose the type of retention policy to create** page two options are available **Adaptive** and **Static**, if you select **Static** and click **Next**, **Choose locations to apply the policy** page will open, deselect all sliders except for **Exchange email.** and click **Next**.
 
-5. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Retain the content based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**. 
+6. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Start the retention period based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**. 
 
-6. Click **Next**.
+7. Click **Next**.
 
 
 
-10. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Submit** to finish the wizard.
+8. On the **Review your settings** page, review all the settings. If any need to be corrected, select the **Edit** option and make the appropriate correction. Select **Submit** and click **Done** to finish the wizard.
 
-11. Do not close your Client 1 VM or Microsoft Edge. Leave your web browser open as well as all tabs for the next lab.
+9. Do not close your Client 1 VM or Microsoft Edge. Leave your web browser open as well as all tabs for the next lab.
 
 You have now created a new retention policy in the Security & Compliance Center that retains all Exchange emails from all mailboxes for 7 years after last modification.
 
