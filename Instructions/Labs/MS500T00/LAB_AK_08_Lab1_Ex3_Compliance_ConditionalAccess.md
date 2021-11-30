@@ -1,8 +1,8 @@
-# Module 7 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
+# Module 8 - Lab 1 - Exercise 3 - Creating compliance and conditional access policies 
 
 ### Scenario
 
-Datum would like to ensure that enrolled Windows 10 devices meet a minimum configuration specification.  The following are required:
+Adatum would like to ensure that enrolled Windows 10 devices meet a minimum configuration specification.  The following are required:
 
 * Minimum OS version: 10.0.17763.615
 * Windows Defender Antimalware required
@@ -16,9 +16,9 @@ If the device does not meet these requirement, the device should be marked as no
 
 2.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
 
-3.  From the navigation pane click **Devices**, then click **Compliance Policies**.
+3.  From the left navigation pane click **Devices**, in the overview pane scroll down under the **Policy** click **Compliance Policies**.
 
-4.  On the **Compliance policies | Policies** blade, in the details pane click **Create Policy**.
+4.  On the **Compliance policies | Policies** blade, in the details pane click **+ Create Policy**.
 
 5.  On the **Create a policy** blade, provide the following values and click **Create**:
 
@@ -33,7 +33,7 @@ If the device does not meet these requirement, the device should be marked as no
 8.  On the **Compliance settings** tab, expand **Device Properties**. In the **Minimum OS version** field, type `10.0.16299.15`.
 
 9.  On the **Compliance settings** tab, expand **System Security**. Scroll down and set the 
-    **Windows Defender Antimalware** setting to **Require**. Click **Next**.
+    **Microsoft Defender Antimalware** under the **Defender** setting to **Require**. Click **Next**.
 
 10. On the **Actions for noncompliance** tab, note that the schedule to **Mark device noncompliant** is immediately. Review how you can configure the number of days after which the device is marked as noncompliant, and configuration additional actions. Click **Next**. 
 
@@ -41,7 +41,7 @@ If the device does not meet these requirement, the device should be marked as no
 
 12. Click **Create**.
 
-13. From the left menu click **Devices**, then click **Enroll devices**.
+13. From the left menu click **Devices**, then click **Enroll devices** under **Device enrollment** from the **Devices Overview**.
 
 14. On the **Enrollment devices | Windows enrollment** blade, click **Enrollment restrictions**.
 
