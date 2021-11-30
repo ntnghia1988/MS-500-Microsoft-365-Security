@@ -64,4 +64,4 @@ If you don’t find a message with a code in your inbox, check the junk folder.
 
 12. Enter a **new password** and click **Finish**.
 
-# Continue to Exercise 2
+# Continue to Lab 2 - Exercise 2
