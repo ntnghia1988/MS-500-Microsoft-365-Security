@@ -14,7 +14,7 @@ Before you start using privileged access, determine who needs approval authority
 
 2. In your **Microsoft Edge** browser, if you have the **Microsoft 365 admin Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://admin.microsoft.com`.
 
-3. In the admin center, click **Groups** and then select **Active Groups**.  In the **Active Groups** screen select **Add a group**.
+3. In the admin center, click **Teams & groups** and then select **Active teams & groups**.  In the **Active teams & groups** screen select **Add a group**.
 
 4.  In the **Choose a group type** screen select **Mail-enabled security** and select **Next**.
 
@@ -24,7 +24,7 @@ Before you start using privileged access, determine who needs approval authority
 
 7.  In the **Review and finish adding group** screen select **Create group**. Select **Close**.
 
-8.  In the **Active Groups** screen select the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
+8.  In the **Active teams & groups** screen select the group you just created.  You may have to click **refresh** after several minutes for the group to appear in the list.
 
 9.  In the **Privileged Access Approval Group** screen click the **Members** tab and then select **View all and manage members**.
 
