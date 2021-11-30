@@ -6,7 +6,7 @@ In this exercise you will activate the automatic client enrollment to Intune for
 
 1. You should still be logged into your Client 1 VM (LON-CL1) as the **Admin** and in Microsoft 365 as **Holly Dickson**.
 
-2. In the **Azure portal** , in the **All services** box, search for and select **Azure Active Directory**.
+2. In the **Azure portal** ,navigate to `https://portal.azure.com`, select **All services** box, search for and select **Azure Active Directory**.
 
 3. On the **Adatum Corporation - Overview** window, in the left pane under **Manage** select **Mobility (MDM and MAM),** and then in the details pane on the right, select **Microsoft Intune**.
 
@@ -43,7 +43,7 @@ You have now configured your tenant so that all users can enroll their clients t
 
 8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
 
-9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
+9. Back in the **Device settings** detail pane on the right, scroll down and verify that **Require Multi-Factor Authentication to register or join devices with Azure AD** is set to **No**. The **Maximum number of devices per user** property is currently set to **50.** Select **10** from the drop down box.
 
 10. In the menu bar at the top of the detail pane, select **Save**.
 
