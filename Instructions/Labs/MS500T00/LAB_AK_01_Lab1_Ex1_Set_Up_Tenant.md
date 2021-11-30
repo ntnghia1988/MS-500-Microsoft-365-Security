@@ -13,7 +13,7 @@ Once you launch the lab, a free trial tenant will be made available to you to ac
 
 1. Because this course can be offered by learning partners using any one of several authorized lab hosting providers, the actual steps involved to retrieve the UPN name, network IP address, and tenant ID associated with your tenant may vary by lab hosting provider. Therefore, your instructor will provide you with the necessary instructions on how to retrieve this information for your course. The information that you should note for later use includes:
 
-	- **Tenant suffix ID.** This ID is for the onmicrosoft.com accounts that you will use to sign into Microsoft 365 throughout the labs. This is in the format of **{username}@M365xZZZZZZ.onmicrosoft.com**, where ZZZZZZ is your unique tenant suffix ID provided by your lab hosting provider. Record this ZZZZZZ value for later use. When any of the lab steps direct you to sign into the Office 365 or Microsoft 365 portals, you must enter the ZZZZZZ value that you obtained here.
+	- **Tenant suffix ID.** This ID is for the onmicrosoft.com accounts that you will use to sign into Microsoft 365 throughout the labs. This is in the format of **{username}@WWLxZZZZZZ.onmicrosoft.com**, where ZZZZZZ is your unique tenant suffix ID provided by your lab hosting provider. Record this ZZZZZZ value for later use. When any of the lab steps direct you to sign into the Office 365 or Microsoft 365 portals, you must enter the ZZZZZZ value that you obtained here.
 	- **Tenant password.** This is the password for the admin account provided by your lab hosting provider.
 	- **UPN name (in the format XXYYZZa) and the network IP address.** Write down the **IP Address** value (this is the IP Address of your parent domain; for example, 64.64.206.13), as well as your **UPN name** (for example, AVEAH2a).
 
@@ -29,7 +29,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 4. **Server Manager** will automatically start. Leave it open (it’s used in the next task) but minimize the window for now.
 
-5. On the taskbar at the bottom of the page, select the **Internet Explorer** icon. Maximize your browser window when it opens.
+5. On the taskbar at the bottom of the page, select the **Microsoft Edge** icon. Maximize your browser window when it opens.
 
 6. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/` 
 
@@ -43,19 +43,19 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
 
-16. If a **Good morning/afternoon/evening MOD Administrator** window appears, select **Get started**.
+12. If a **Good morning/afternoon/evening MOD Administrator** window appears, select **Get started**.
 
-17. In the **Microsoft Office Home** page, select the **Admin** app. This opens the **Microsoft 365 admin center.**
+13. In the **Microsoft Office Home** page, select the **Admin** app. This opens the **Microsoft 365 admin center.**
 
-18. In the left navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
+14. In the left navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
 
-19. In the left navigation pane, select **Settings** and then select **Org Settings**  then select **Organization profile** tab.
+15. In the left navigation pane, select **Settings** and then select **Org Settings**  then select **Organization profile** tab.
 
-20. In the **Organization Profile** tab select **Organizational information**, it displays Contoso as the organization name, change this information.   
+16. In the **Organization Profile** tab select **Organizational information**, it displays Contoso as the organization name, change this information.   
 
     ‎**Note:** The Contoso organization name was explained in the Introduction section at the start of this lab. In the following steps, you will change it to Adatum Corporation. 
 
-21. In the **Organization information** window, enter the following information:
+17. In the **Organization information** window, enter the following information:
 
 	- Name: `Adatum Corporation`
 
@@ -69,39 +69,39 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 	- Phone: `425-555-1234`
 
-	- Technical contact: **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+	- Technical contact: **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
 	- Preferred language: **select your preferred language**
 
-22. Select **Save**.
+18. Select **Save**.
 
-23. Close the **Organization information** window.
+19. Close the **Organization information** window.
 
-24. In the Settings window select **Release preferences**. If **Release Preferences** doesn't display under settings by default, use 'Search all settings' at top right corner to search for 'Release preferences'
+20. In the Settings window select **Release preferences**. If **Release Preferences** doesn't display under settings by default, use 'Search all settings' at top right corner to search for 'Release preferences'
 
-25. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save**.  
+21. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save**.  
 
     ‎**Note:** One of the benefits of Office 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
-26. If the **Are you sure you want to change to Targeted release for select people** window appears, select **Yes.**.  <br/>
+22. If the **Are you sure you want to change to Targeted release for select people** window appears, select **Yes.**.  <br/>
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they’ve been reviewed by the control group.
 
-27. In the **Release preferences** window, select **Select users**.
+23. In the **Release preferences** window, select **Select users**.
 
-28. In the **Choose users for targeted release** window, in the list of users, select the **MOD Administrator** and then select **Save**.
+24. In the **Choose users for targeted release** window, in the list of users, select the **MOD Administrator** and then select **Save**.
 
-29. Close the **Release preferences** window, this returns you to the **Settings** window.
+25. Close the **Release preferences** window, this returns you to the **Settings** window.
 
-30. Select **Custom themes**.
+26. Select **Custom themes**.
 
-31. In the **Customize themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish. <br/>
+27. In the **Customize themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish. <br/>
 
     **Note:** Some colors patterns aesthetically distract users. Avoid using high contrasting colors together, such as neon colors and high-resolution colors like white and bright pink.
 
-32. Once you’re done exploring and making any further changes, select **Save** and then **Close**.
+28. Once you’re done exploring and making any further changes, select **Save** and then **Close**.
 
-33. Remain logged into the domain controller VM and in Internet Explorer, leave your Microsoft 365 admin center tab and all tabs open for the remaining tasks. 
+29. Remain logged into the domain controller VM and in Internet Explorer, leave your Microsoft 365 admin center tab and all tabs open for the remaining tasks. 
  
 
 
@@ -116,7 +116,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Internet Explorer from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
 
-2. In the **Active users** list, you will see the  the default **MOD Administrator** account as well as some other user accounts. Since you’re taking on the role of Holly Dickson in this lab scenario, you will create a user account for yourself, and you will assign yourself the Microsoft 365 role of Global Administrator. 
+2. In the **Active users** list, you will see the default **MOD Administrator** account as well as some other user accounts. Since you’re taking on the role of Holly Dickson in this lab scenario, you will create a user account for yourself, and you will assign yourself the Microsoft 365 role of Global Administrator. 
 
 3. In the **Active Users** window, select **Add a user**. 
 
@@ -130,11 +130,11 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 	- Username: When you tab into this field, **Holly** may appear; if not enter this as the username
 	
-		‎**IMPORTANT:** To the right of the **Username** field is the domain field. It may be prefilled with the custom **XXYYZZa.CustomDomain.us** on-premises domain; however, you must select the drop-down arrow and select the **M365xZZZZZZ.onmicrosoft.com** cloud domain instead (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
+		‎**IMPORTANT:** To the right of the **Username** field is the domain field. It may be prefilled with the custom **XXYYZZa.CustomDomain.us** on-premises domain; however, you must select the drop-down arrow and select the **WWLxZZZZZZ.onmicrosoft.com** cloud domain instead (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
 	
 		After configuring this field, Holly’s username should appear as:
 
-		**Holly@M365xZZZZZZ.onmicrosoft.com**  
+		**Holly@WWLxZZZZZZ.onmicrosoft.com**  
 	
 	- Password settings: Uncheck the **Automatically create a password** option
 
@@ -225,7 +225,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 2. In your browser, enter the following URL in the address bar: `https://protection.office.com`.
 
-3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**.
+3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**. It redirects to the page `https://compliance.microsoft.com/auditlogsearch`.
 
 4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
 
@@ -234,4 +234,4 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 
 
-# End of Lab 
+# Continue to Lab1 - Exercise2 
