@@ -15,7 +15,7 @@ In this task, you will create two new groups and then manage the groups by assig
 	
 	**Important:** When signing out of one user account and signing in as another, you should close all your browser tabs except for your current tab. This is a best practice that helps to avoid any confusion by closing the windows associated with the prior user. Take a moment now and close all other browser tabs except for the **Sign out** tab. 
 	
-2. In Internet Explorer browser, navigate to `https://portal.office.com/`. 
+2. In Microsoft Edge browser, navigate to `https://portal.office.com/`. 
 
 3. In the **Pick an account** window, only the admin account that you just logged out from appears. Select **Use another account**. 
 
@@ -29,30 +29,30 @@ In this task, you will create two new groups and then manage the groups by assig
 
 8. If a survey window appears, select **Cancel**.
 
-9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Active Groups**. 
+9. In the **Microsoft 365 admin center**, select **Teams & groups** in the left navigation pane, and then under it, select **Active teams & groups**. 
 
-10. In the **Active Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
+10. In the **Active Teams & Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
 
 11. In the **Choose a group type** window, select **Microsoft 365 (recommended)** and then select **Next**. 
 
 12. In the **Set up the basics** window, enter `Inside Sales` in the **Name** field, and then enter `Collaboration group for the Inside Sales team.` in the **Description** field. Select **Next**.
 
-13. In the **Assign Owners** window, you will assign Allan Deyoung and Patti Fernandez as owners of this group. 
+13. In the **Assign Owners** window, select **Assign Owners** and you will assign Allan Deyoung and Patti Fernandez as owners of this group. 
 	- Enter `Allan` in the **Owners** field. In the drop-down menu that appears, select **Allan Deyoung**. 
 	- Enter `Patti` in the **Owners** field. In the drop-down menu that appears, select **Patti Fernandez**. 
-	- Select **Next**.
+	- Click **Add (2)** and then Select **Next**.
 
 14. Leave default settings and click 'Next' under Members.
 
 15. In the **Edit settings** window, enter `insidesales` in the **Group email address** field. Under the **Privacy** section, verify the **Public** option is selected (select it if need be), and under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** checkbox is selected (select it if need be). Select **Next**. 
 
-15. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
+16. In the **Review and finish adding group** window, review the content that you entered. If everything is correct, select **Create group**; otherwise, select **Back** and fix anything that needs correction (or select **Edit** under the specific area that needs adjustment).
 
-16. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
+17. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
 
-	Select **Close**. This returns you to the **Groups** page. 
+	Select **Close**. This returns you to the **Active Teams & groups** page. 
 
-17. Repeat steps 10-16 to add a new group with the following information:
+18. Repeat steps 10-16 to add a new group with the following information:
 
 	- Group type: `Security`
 
@@ -62,39 +62,39 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-18. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
+19. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
 
-	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
+	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution list groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
 
-19. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
+20. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
 
-20. In the **Inside Sales** group window, select the **Members** tab.
+21. In the **Inside Sales** group window, select the **Members** tab.
 
-21. Under the **Members** section, you can see the two owners (Allan and Patti), but you can also see that there are zero (0) members. Select **View all and manage members** to add members to the group. 
+22. Under the **Members** section, you can see the two owners (Allan and Patti), but you can also see that there are zero (0) members. Select **View all and manage members** to add members to the group. 
 
-22. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
+23. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
 
-23. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
+24. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
 
-24. Select **Back arrow**. 
+25. Select **Back arrow**. 
 
-25. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window. 
+26. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window. 
 
-26. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group.
+27. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group.
 
-27. You now want to test the effect of deleting a group. In the list of **Groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete group**. 
+28. You now want to test the effect of deleting a group. In the list of **Groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete team**. 
 
-28. In the **Delete Inside Sales** window, select the **Delete group** button.
+29. In the **Delete Inside Sales** window, select the **Delete group** button.
 
-29. Once the group is deleted, select **Close**. 
+30. Once the group is deleted, select **Close**. 
 
-30. This will return you to the list of **Groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Groups** list should no longer include the Inside Sales group.
+31. This will return you to the list of **Groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Groups** list should no longer include the Inside Sales group.
 
-31. To verify whether deleting this group affected any of its owners or members, select **Users** and then **Active Users** in the left navigation pane. 
+32. To verify whether deleting this group affected any of its owners or members, select **Users** and then **Active Users** in the left navigation pane. 
 
-32. In the **Active users** list verify that the two owners (**Allan Deyoung** and **Patti Fernandez**) and the two members (**Diego Siciliani** and **Lynne Robbins**) of the Inside Sales group still appear in the list of users. This verifies that deleting a group does not delete the user accounts that were owners or members of the group.
+33. In the **Active users** list verify that the two owners (**Allan Deyoung** and **Patti Fernandez**) and the two members (**Diego Siciliani** and **Lynne Robbins**) of the Inside Sales group still appear in the list of users. This verifies that deleting a group does not delete the user accounts that were owners or members of the group.
 
-33. Remain logged into the domain controller VM with the Microsoft 365 admin center open in your browser for the next task.
+34. Remain logged into the domain controller VM with the Microsoft 365 admin center open in your browser for the next task.
 
 
 ### Task 3 – Recover Groups using PowerShell 
@@ -113,7 +113,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 	
 		‎`Connect-AzureAD`   
 
-	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
+	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
@@ -131,9 +131,9 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
-5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Active Groups** to display the list of groups. 
+5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Microsoft Edge browser, select **Teams & groups** from the left-hand navigation pane, and then under it select **Active Teams & groups** to display the list of groups. 
 
-6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Internet Explorer.
+6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Microsoft Edge.
 
 7. You now want to verify that the recovery process correctly updated the group's membership. From the **Groups** windows, select the **Inside Sales** group.
 
@@ -144,4 +144,4 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 10. Leave your browser windows open so that they’re ready for the next task. 
 
 
-# End lab
+# End Lab 1
