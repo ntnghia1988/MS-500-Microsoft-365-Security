@@ -113,7 +113,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 	
 		‎`Connect-AzureAD`   
 
-	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
+	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
