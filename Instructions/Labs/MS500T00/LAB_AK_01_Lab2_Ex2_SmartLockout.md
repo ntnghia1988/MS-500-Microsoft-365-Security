@@ -64,7 +64,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 19. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 
-20. In the **Sign in** window, enter **AllanD@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
+20. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
 
 21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
