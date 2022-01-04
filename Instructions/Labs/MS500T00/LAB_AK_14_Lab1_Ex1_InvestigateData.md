@@ -27,7 +27,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 9. You should see a banner with the message **2 members added**. Select **Done** and then **Save**. Click **Close**.
 
-10. Switch to the Client 2 VM (**LON-CL2**). You should still be logged into **LON-CL2** as the **LON-CL2\Admin** account, and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
+10. Switch to the Client 2 VM (**LON-CL2**). You should still be logged into **LON-CL2** as the **LON-CL2\Admin** account, and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
 
 11. If you have a tab open in your **Edge** browser for the **Office 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://protection.office.com`.
 
@@ -61,7 +61,7 @@ You have successfully assigned an eDiscovery role to Joni and performed a conten
 
 In this task, you will create an eDiscovery case with a configured hold and content search for any violations regarding social security numbers. You will continue using Joni Sherman’s user account. Having been assigned the eDiscovery Managers role in the prior task, Joni has the permissions necessary to create an eDiscovery case.
 
-1. You should still be logged into your Client 2 VM (**LON-CL2**) as the **LON-CL2\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@WWLxZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
+1. You should still be logged into your Client 2 VM (**LON-CL2**) as the **LON-CL2\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
 
 2. The **Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: `https://protection.office.com`. 
 
