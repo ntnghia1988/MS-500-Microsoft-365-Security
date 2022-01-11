@@ -14,7 +14,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 2.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
     
 
-3.  In the navigation pane under **Manage** select **Users**, then select **Password reset**.
+3.  In the navigation pane select **Users**, then select **Password reset**.
 
 4.  In the **Password reset | Properties** window, select **All** to enable self-service password reset to all users. Select **Save**.
 
@@ -40,7 +40,7 @@ With SSPR enabled and configured, test the SSPR process with a user that's part 
 >**Note**
 When you test the self-service password reset, use a non-administrator account. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password.
 
-1.   In your web browser at the upper right corner of the page, select your account name, and then select **Sign in with a different account**. 
+1.   In your web browser at the upper right corner of the page, select your account name, and then select **Sign out**. 
 
 2.  Sign in as **AllanD@yourtenant.onmicrosoft.com** with the password that was assigned by your lab hosting service.   
 
