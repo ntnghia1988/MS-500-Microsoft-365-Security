@@ -54,23 +54,21 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 14. Select **Save** on the menu bar at the top of the page.
 
-15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
+15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Password**.
 
-16. A new tab will open displaying the **change password** window. Enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
+16. On the **Change password** page, enter `Pa55w.rd` in the **Old password** field, enter `Never4get!!` in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
-17. In your browser, close the **Change password** tab. 
+17. You should now test the lockout threshold functionality. On the **My Account** page, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
 
-18. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
+18. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 
-19. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
+19. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
 
-20. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
-
-21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
+20. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
 
 	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
-22. After 90 seconds, try logging in again to verify that you can log in. 
+21. After 90 seconds, try logging in again to verify that you can log in. 
 
 # End of lab.
  
