@@ -25,7 +25,7 @@ In your policy, set:
 
      ![Screenshot](../Media/NewConditionalAccessScreen.png)
  
-5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
+5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**, and then select **Create new policy**.
 
     **Note**: if this is greyed out, refresh the browser session.
 
@@ -35,7 +35,7 @@ In your policy, set:
 
 
 
-7.  In the **Assignment** section, click **0 users and groups selected**.
+7.  In the **Assignment** section, click **0 users or workload identities selected**.
 
 
 
@@ -48,7 +48,7 @@ In your policy, set:
     b. On the **Select** page, select `Patti Fernandez`, and then click **Select**.
 
 
-9.  Back on the New page click **Cloud apps or actions**.
+9.  Back on the New page, in the **Cloud apps or actions** section, click **No cloud apps, actions, or authentication contexts selected**.
 
 
 
@@ -58,12 +58,10 @@ In your policy, set:
 
     a. Click **Select apps**.
 
-    b. Click **Select**.
-
-    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
+    b. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
 
 
-11.  In the **Access controls** section, click **Grant**.
+11.  In the **Access controls** section under **Grant**, click **0 controls selected**.
 
 
 12.  On the **Grant** page, perform the following steps:
@@ -98,7 +96,7 @@ We will initialize the what if policy evaluation tool for:
  
      ![Screenshot](../Media/448e616a-7524-44a5-8335-c2fc8193dae6.png)
 
-2.  Click **Users**, select `Patti Fernandez`, and then click **Select**.
+2.   Under **Workload or user identity**, click **No user selected**, select `Patti Fernandez`, and then click **Select**.
 
 
 
@@ -111,8 +109,6 @@ We will initialize the what if policy evaluation tool for:
     b. Click **Select apps**.
 
     c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
-
-    d. On the cloud apps or actions page,  select 'X' on the top right corner to close the window..
 
 4.  In the What If page select **What If**.
 
