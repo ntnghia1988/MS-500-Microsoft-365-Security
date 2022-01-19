@@ -16,7 +16,7 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 
 ‎**Note:** To perform this task, Holly needs to be assigned to the eDiscovery Manager role group so that she has the necessary permissions. You added Holly to this role group in the prior exercise at the same time that you added Joni Sherman to the role group. The reason we did this is explained below following the search query. 
 
-4. In the **Data subject requests** window, select **+New DSR case**. This initiates the New DSR case wizard.
+4. In the **Data subject requests** window, select **+Create a case**. This initiates the New DSR case wizard.
 
 ‎**Note:** A notification message appears to inform that **Data subject requests** has a new name **User data search** and location. 
 
@@ -26,11 +26,11 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 
 	- Description: `This is a test of the Data Subject Request resource to pulling information on the subject Holly Dickson`.
 
-6. In the **Request details** page, select the **Data subject (the person who filed this request)** field, which displays a list of users. Select **Holly Dickson** and then select **Next**.
+6. In the **Request details** page, select the **User who filed this request** field, which displays a list of users. Select **Holly Dickson** and then select **Next**.
 
 7. In the **Confirm your case settings** page, review your settings. If necessary, select **Edit** next to either setting to change it. Once you’re satisfied with the settings, select **Save**.
 
-8. In the **Successfully created new DSR case** window, select **Show me search results**.
+8. In the **Successfully created new UDS case** window, select **Show me search results**.
 
 9. A new **Search query** window will appear and begin the query. In the bottom left corner of the screen, the status of the query is displayed. Wait for the status to show **Completed** this may take several minutes. 
 
@@ -57,7 +57,7 @@ You have created a data subject request and you have searched for the personal i
 
 When someone files a DSR, you typically need to export the results. In this task, Holly will export the DSR report for the previous case for further processing.
 
-1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **More > Export report** at the top of the page.
+1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **Export report** at the top of the page.
 
 2. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
 
