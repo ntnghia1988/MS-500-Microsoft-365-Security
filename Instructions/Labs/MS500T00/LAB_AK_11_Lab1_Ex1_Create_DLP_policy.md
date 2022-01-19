@@ -19,9 +19,11 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 6. In the **Name your policy** page, type `Social Security DLP Policy` in the **Name** field and `Protect social security numbers from being shared` in the **Description** field. Select **Next**.
 
-7. On the **Choose locations** page, select **On** for**Exchange email, SharePoint, OneDrive, Teams chats and channel messages** and **Off** for **Devices, Microsoft Cloud App Security, On-premises repositories** and then select **Next**.
+7. On the **Choose locations** page, select On for **Exchange email, SharePoint sites, OneDrive accounts, Teams chats and channel messages** and **Off** for **Microsoft Defender for Cloud Apps, On-premises repositories, Power BI** and then select **Next**.
 
-8. On the  **Customize advanced DLP rules** and click **+Create rule**.
+8. On the **Define policy settings** page click **Next**.
+
+8. On the **Customize advanced DLP rules** click **+Create rule**.
 
 9. On the **Create rule** page, in the **Name** field type **Social Security Number**.
 
@@ -33,15 +35,15 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 13. In the list of search results, select the **U.S. Social Security Number (SSN)** check box, and then select **Add**.
 
-14. Click **Add Condition** and select **Content is shared from Microsoft 365**,
+14. Click **Add Condition** and select **Content is shared from Microsoft 365**.
 
 15. In the field below this, verify that **only with people inside my organization** is displayed.
 
-16. Scroll down to **Actions** section,
+16. Scroll down to **Actions** section.
 
-17. Click **+ Add and Action*,
+17. Click **+ Add an Action**.
 
-18. Select **Restrict access or encrypt the content in Microsoft 365 locations**
+18. Select **Restrict access or encrypt the content in Microsoft 365 locations**.
 
 19. Check the box **Restrict access or encrypt the content in Microsoft 365 locations** and select **Block everyone**.
 
@@ -57,7 +59,7 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 24. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
 
-25. Click **Submit**
+25. Click **Submit** and then select **Done**.
 
 You have now created a DLP policy that scans for US Social Security numbers in emails and documents that are sent or shared in your organization.
 
