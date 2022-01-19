@@ -60,7 +60,7 @@ It has been decided that Exchange mailbox moves tasks will require privileged ac
 
 Policy type = **Role**
 
-Policy scope = **Exchange**
+Scope = **Exchange**
 
 Policy name = **Move Mailboxes**
 
@@ -82,17 +82,17 @@ In this task you will request access to the Compliance Admin role to attain temp
 
 4. Select **Access Requests** Then **+ Request Access**.  In the **Request Access** screen select the following and then **Create**
 
-Request type:  **Role**
+Type:  **Role**
 
-Request scope:  **Exchange**
+Scope:  **Exchange**
 
-Request for:  **Move Mailboxes** 
+Access to:  **Move Mailboxes** 
 
 Duration(hours): `8`
 
 Comments: `I need to move mailboxes for the new department today`. 
 
-5. When the access request is done processing select **Close** 
+5. When the access request is done processing select **Create**. 
 
 
 ### Task 5 - Approve a privileged access request.
