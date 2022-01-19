@@ -35,7 +35,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
     ‎**Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
 
-13. On the **Content search** window, in the **Searches** tab, select **(+) Guided search** on the top menu. This will initiate the **New search** wizard.
+13. On the **Content search** window, in the **Searches** tab, select **+ New search** on the top menu. This will initiate the **New search** wizard.
 
 14. On the Name your search page, enter `Content Search Test` into the **Name** field and then select **Next**.
 
@@ -69,35 +69,31 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 4. On the **eDiscovery** window, select **(+) Create a case** on the top menu.
 
-5. In the **New case** window, enter `Social Security Violation` into the **Case name** field and select **Save**.
+5. In the **New case** window, enter `Social Security Violation` into the **Name** field and select **Save**.
 
 6. Back on the **eDiscovery** page, select **Open** that appears to the left of the **Social Security Violation** case.
 
-7. On the **Social Security Violation** window, select the **Holds** tab from the top menu.
+7. On the **Social Security Violation** window, select the **Hold** tab from the top menu.
 
 8. Select **(+) Create** to create a new hold. This initiates the **Create a new hold** wizard.
 
 9. On the **Name your hold** page, enter `Social Security Violation - Content` into the **Name** field and then select **Next**.
 
-10. On the **Choose locations** page, For the location **Exchange email**, select the **Choose users, groups or teams** field.
+10. On the **Choose locations** page, For the location **Exchange mailboxes**, select **Choose users, groups or teams**.
 
-12. On the **Exchange email** page, select **Choose users, groups, or teams**.
+13. Enter **Holly** into the search field and press **Enter**. 
 
-13. Enter **Holly** into the search field, select the Search icon on the right side of the field. 
+13. Scroll down on the page, and under **Name**, select **Holly Dickson** from the search results and select **Done**.
 
-13. Scroll down on the page, and under **Users, groups, or teams**, select **Holly Dickson** from the search results.
-
-14. Select **Choose** and then select **Done**.
-
-15. On the **Choose locations** page, **1 user, group, or team** is displayed to the right of **Exchange email**. Select **Next**.
+15. On the **Choose locations** page, **1** is displayed to the right of **Exchange mailboxes**. Select **Next**.
 
 16. On the **Query conditions** page, enter `SSN` press enter and then type `social` into the **Keywords** box.  This will search for those two terms independently. Then select **Next**.
 
-17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select **Create this hold**, then select **Close**.
+17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select **Submit**, then select **Done**.
 
-18. Back on the **eDiscovery Case overview**, on the **Social Security Violation &gt; Core ED &gt; Hold** page, select the **Searches** tab from the top menu.
+18. Back on the **eDiscovery Case overview**, on the **Core eDiscovery > Social Security Violation > Hold** page, select the **Searches** tab from the top menu.
 
-19. Select **(+) New search.** and then in the drop-down select **(+) New search.**.
+19. Select **+ New search**.
 
 20. In the **New search** window,in the **Name and description** page enter `Social Security Violation - Search` into the **Name** field and select **Next**. Under the **Locations** page, select **Locations on hold** and click **Next**.
 
