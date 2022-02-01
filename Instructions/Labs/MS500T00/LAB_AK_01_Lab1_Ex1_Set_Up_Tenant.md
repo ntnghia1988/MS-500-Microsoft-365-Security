@@ -69,7 +69,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 	- Phone: `425-555-1234`
 
-	- Technical contact: **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+	- Technical contact: **admin@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
 	- Preferred language: **select your preferred language**
 
@@ -130,11 +130,11 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 	- Username: When you tab into this field, **Holly** may appear; if not enter this as the username
 	
-		‎**IMPORTANT:** To the right of the **Username** field is the domain field. It may be prefilled with the custom **XXYYZZa.CustomDomain.us** on-premises domain; however, you must select the drop-down arrow and select the **WWLxZZZZZZ.onmicrosoft.com** cloud domain instead (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
+		‎**IMPORTANT:** To the right of the **Username** field is the domain field. It may be prefilled with the custom **XXYYZZa.CustomDomain.us** on-premises domain; however, you must select the drop-down arrow and select the **M365xZZZZZZ.onmicrosoft.com** cloud domain instead (where ZZZZZZ is your tenant ID provided by your lab hosting provider).
 	
 		After configuring this field, Holly’s username should appear as:
 
-		**Holly@WWLxZZZZZZ.onmicrosoft.com**  
+		**Holly@M365xZZZZZZ.onmicrosoft.com**  
 	
 	- Password settings: Uncheck the **Automatically create a password** option
 
