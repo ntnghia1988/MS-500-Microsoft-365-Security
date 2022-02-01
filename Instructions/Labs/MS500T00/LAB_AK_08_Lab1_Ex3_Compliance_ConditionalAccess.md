@@ -67,17 +67,17 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 1.  On **LON-CL1**, in the **Microsoft Endpoint Manager admin center** click **Devices**, then click **Conditional Access**.
 
-2.  In the **Conditional Access | Policies** pane, click **+ New policy**.
+2.  In the **Conditional Access | Policies** pane, click **+ New policy**, and click **Create new policy**.
 
-3.  On the **New** blade, in the **Name** text box, type `Conditional1` and then click **Users and groups**.
+3.  On the **New** blade, in the **Name** text box, type `Conditional1` and then click **0 users or workplace identities selected**.
 
 4.  On the **Users and groups** blade, click the **All users** radio button.
 
-5.  On the **New** blade, click **Cloud apps or actions**, click the **Select apps** radio button, click **Select**, click **Office 365 Exchange Online**, and then click **Select**.
+5.  On the **New** blade, click **No cloud apps, actions, or authentication contexts selected**, click the **Select apps** radio button, click **Office 365 Exchange Online**, and then click **Select**.
 
-6.  On the **New** blade, click **Conditions** > **0 conditions selected**. Under **Device platforms** label, click **Not configured**. Under **Device platforms** pop-up window, click **Yes** below configure, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
+6.  On the **New** blade, click **0 conditions selected**. Under **Device platforms** label, click **Not configured**. Under **Device platforms** pop-up window, click **Yes** below configure, click the **Select device platforms** radio button, click the **Windows** check box, and then click **Done**.
 
-7.  On the **New** blade under **Access controls**, click **Grant**, click the **Require device to be marked as compliant** check box, and then click **Select**.
+7.  On the **New** blade under **Access controls - Grant**, click **0 controls selected**, click the **Require device to be marked as compliant** check box, and then click **Select**.
 
 8.  On the **New** blade, click **On** for the **Enable policy** option and then click **Create**.
 
@@ -89,7 +89,7 @@ When devices are non-compliant, they should not be able to access their e-mail. 
 
 3.  Verify that you receive the message **"You can't get there from here"** or similar warning message.
 
-4.  Click **More details**. You should see more information about why you are blocked. **Note:** This is because LON-CL1 is not joined to Azure AD and not managed by Intune, so not marked as compliant.
+4.  Click **More details**. You should see more information about why you are blocked. **Note:** This is because LON-CL2 is not joined to Azure AD and not managed by Intune, so not marked as compliant.
 
 5.  **Close** the browser window.
 
