@@ -44,7 +44,7 @@ The Secure Score History view also lists specific actions you have taken and the
 
 1.  Click the **Improvement actions** tab and select **Enable self-service password reset**. More information about this security action appears. Notice it includes specific instructions to take this action.
 
-2.  Click the **Manage** button.  A new browser tab should open directly to the **Password reset - Properties** blade in Azure portal.
+2.  Click the **Manage in Microsoft Azure** button.  A new browser tab should open directly to the **Password reset - Properties** blade in Azure portal.
   
 3.  Under **Self service password reset enabled** click All. 
 
