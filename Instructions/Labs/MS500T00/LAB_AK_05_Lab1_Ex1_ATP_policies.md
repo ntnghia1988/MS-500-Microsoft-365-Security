@@ -12,9 +12,9 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 3. In the **Security &amp; Compliance center**, in the left navigation pane, select **Threat Management** and then select **Policy**.
 
-4. In the **Policy** window, scroll to the right (if necessary) and select the **Safe Links** tile.
+4. In the **Policies & rules** window, select **Safe links**.
 
-5. In the **Safe Links** window, click **Global Settings**.
+5. In the **Safe links** window, click **Global Settings**.
 
 6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
 
@@ -108,7 +108,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane under **Threat Management**, select **Policy**.
 
-4. In the **Policy** window, select the **Safe Attachments** tile.
+4. In the **Policies & rules** window, select **Safe Attachments**.
 
 5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on Defender for Office 365 for SharePoint, OneDrive and Microsoft Teams** switch. Select **Save**.
 
