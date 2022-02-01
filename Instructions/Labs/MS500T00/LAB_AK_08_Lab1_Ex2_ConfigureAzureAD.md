@@ -31,7 +31,7 @@ You have now configured your tenant so that all users can enroll their clients t
 
 2. In the **Adatum Corporation – Overview** window, in the left section under **Manage**, select **Devices**.
 
-3. In the **Devices – All devices** window, in the details pane on the right, verify that no devices are listed. This is because no device has yet to be joined to Azure Active Directory.
+3. In the left pane select **All devices**, and in the details pane on the right, verify that no devices are listed. This is because no device has yet to be joined to Azure Active Directory.
 
 4. In the **Devices – All devices** window, in the left pane, select **Device settings**.
 
