@@ -47,7 +47,7 @@ license assignments for a few users.
 
 1.	To verify the new user you created open the Office 365 Admin Center in the browser by typing `https://portal.office.com` in the address bar.  
 2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
-3.	Navigate to the **Active Users**.  
+3.	In the left navigation, select **users** icon and select **Active users** 
 4.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  
 5.	Edit the following users to remove **both** the Microsoft 365 E5 and the Enterprise Mobility + Security E5 licenses:
 	-Debra Berger
