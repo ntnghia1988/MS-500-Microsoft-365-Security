@@ -33,7 +33,7 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 3.	Click on **Use express settings**.   
 4.	On the **Connect to Azure AD** screen enter your Office 365 admin username of 
 **holly@M365xZZZZZZ.onmicrosoft.com** with password `Pa55w.rd` and click Next.   
-5.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password `ycYoe&L20a%%` and select **Next**.   
+5.	If there is a pop up sign in window **Connect to AD DS** screen enter your domain administrator **Admin@M365xZZZZZZ.onmicrosoft.com** and password **provided by your lab hosting provider** and select **Next**.   
 6.	On the **Connect to AD DS** screen enter your domain administrator **ADATUM\Administrator** and password `Pa55w.rd` and select **Next**.
 7.	Select **Continue without matching all UPN suffixes to verified domains** checkbox. Select **Next** on the Azure AD sign-in configuration screen.   
 8.	On the **Ready to configure** screen make sure the check box for **Start the synchronization process when configuration completes** is marked and select **Install**.   
@@ -49,14 +49,13 @@ license assignments for a few users.
 2.	Sign in as Holly Dickson with the following credentials:  User name: **holly@M365xZZZZZZ.onmicrosoft.com**, Password: `Pa55w.rd`  
 3.	In the left navigation, select **users** icon and select **Active users** 
 4.	You should now see many users that have become synced from the local Active Directory.  You may need to click the refresh button to update the data in the page.  
-5.	Edit the following users to remove **both** the Microsoft 365 E5 and the Enterprise Mobility + Security E5 licenses:
+5.	**Only complete if these users exist** Edit the following users to remove **both** the Microsoft 365 E5 and the Enterprise Mobility + Security E5 licenses:
 	-Debra Berger
 	-Irvin Sayers
 	-Johanna Lorenz
 	-Lidia Hallowey
 	-Pradeep Gupta
-**Note**  When your M365 subscription was provisioned, all available licenses were allocated. Because we need a few licenses for this and future labs, you can remove
-license assignments for a few users that don't need them.
+**Note**  When your M365 subscription was provisioned,it may have been that all available licenses were allocated. Because we need a few licenses for this and future labs, you can remove license assignments for a few users that don't need them.
 6.	Select Abbie Parsons.  Abbie is a user that was only in the AD DS domain prior to our synchronization. Edit Abbie Parsons Product licenses as follows: 
 	- Location = United Kingdom
 	- Product License = Enterprise Mobility + Security E5
