@@ -26,7 +26,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
 
-11. On the **Protection settings** pane, select the following options and click **Next**:
+11. On the **URL & click protection settings** pane, select the following options and click **Next**:
 
     - Under **Action on potentially malicious URLs within Emails** select **On: Safe Links checks a list of known, malicious links when users click links in email. URLs are rewritten by default**.
 
