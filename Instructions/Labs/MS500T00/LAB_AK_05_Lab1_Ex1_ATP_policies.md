@@ -12,7 +12,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 3. In the **Security &amp; Compliance center**, in the left navigation pane, select **Threat Management** and then select **Policy**.
 
-4. In the **Policies & rules** window, select **Safe links**.
+4. In the **Threat policies** window, select **Safe links**.
 
 5. In the **Safe links** window, click **Global Settings**.
 
@@ -26,21 +26,21 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
 
-11. On the **Protection settings** pane, select the following options and click **Next**:
+11. On the **URL & click protection settings** pane, select the following options and click **Next**:
 
-    - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
-
-    - Also select **On** for unknown or potentially malicious URLs within Microsoft Teams.
+    - Under **Action on potentially malicious URLs within Emails** select **On: Safe Links checks a list of known, malicious links when users click links in email. URLs are rewritten by default**.
 
     - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
     - Select the check box next to **Apply safe links to email messages sent within the organization**.
 
-12. On the **Notification** pane, leave the default notification text selected. Click **Next**.
+12. Under **Action for potentially malicous URLs in Microsoft Teams** select **On: Safe Links checks a list of known, malicous links when users click links in Microsoft Teams. URLs are not rewritten**.
 
-13. On the **Review** pane, select **Submit** to create the policy.
+13. On the **Notification** pane, leave the default notification text selected. Click **Next**.
 
-14. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
+14. On the **Review** pane, select **Submit** to create the policy.
+
+15. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 
@@ -108,7 +108,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane under **Threat Management**, select **Policy**.
 
-4. In the **Policies & rules** window, select **Safe Attachments**.
+4. In the **Threat policies** window, select **Safe Attachments**.
 
 5. On the **Safe attachments** window, at the top of the page under **Global Settings** in the **Protect files in SharePoint, OneDrive, and Microsoft Teams** section, select the **Turn on Defender for Office 365 for SharePoint, OneDrive and Microsoft Teams** switch. Select **Save**.
 
