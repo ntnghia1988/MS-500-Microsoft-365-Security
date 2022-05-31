@@ -74,13 +74,13 @@ To add these tags, repeat steps 15-17. Hold down the **Ctrl** key as you select 
 You have now created a new retention policy with several retention tags, including a custom personal retention tag. Then you have assigned the retention tags via a retention policy to Alex and Joni’s mailboxes.
 
 
-### Task 2 – Create a Retention Policy in the Security and Compliance Center
+### Task 2 – Create a Retention Policy in the Microsoft PureView
 
-As part of your pilot project for Adatum, you will create a retention policy in the Security & Compliance Center to preserve the content of all Exchange Online mailboxes from deletion for 7 years after the last modification. 
+As part of your pilot project for Adatum, you will create a retention policy in the Microsoft PureView Portal to preserve the content of all Exchange Online mailboxes from deletion for 7 years after the last modification. 
 
-1. In **Microsoft Edge**, go to the [**Microsoft 365 compliance**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
+1. In **Microsoft Edge**, go to the [**Microsoft PureView**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
 
-2. In the left navigation pane, click **Information Governance** (you might need to click **... Show all** first) and then select the **Retention policies** tab.
+2. In the left navigation pane, click **Data lifecycle management** (you might need to click **... Show all** first) and then select the **Retention policies** tab.
 
 3. In the **Retention policies** tab, click **+ New retention policy** to start the wizard that’s used to create a new retention policy.
 
@@ -98,7 +98,7 @@ As part of your pilot project for Adatum, you will create a retention policy in 
 
 9. Do not close your Client 1 VM or Microsoft Edge. Leave your web browser open as well as all tabs for the next lab.
 
-You have now created a new retention policy in the Security & Compliance Center that retains all Exchange emails from all mailboxes for 7 years after last modification.
+You have now created a new retention policy in the Microsoft PureView Portal that retains all Exchange emails from all mailboxes for 7 years after last modification.
 
  # End of Lab
  
