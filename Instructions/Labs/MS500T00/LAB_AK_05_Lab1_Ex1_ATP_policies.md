@@ -28,7 +28,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 11. On the **Protection settings** pane, select the following options and click **Next**:
 
-    - Under **Select the action for unknown potentially malicious URLs in messages**: Select **On – URLs will be rewritten and checked against a list of known malicious links when user clicks on the link**.
+    - Under **Action on potentially malicious URLs within Emails** select **On: Safe Links checks a list of known, malicious links when users click links in email. URLs are rewritten by default**.
 
     - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
