@@ -74,11 +74,11 @@ To add these tags, repeat steps 15-17. Hold down the **Ctrl** key as you select 
 You have now created a new retention policy with several retention tags, including a custom personal retention tag. Then you have assigned the retention tags via a retention policy to Alex and Joni’s mailboxes.
 
 
-### Task 2 – Create a Retention Policy in the Microsoft PureView
+### Task 2 – Create a Retention Policy in the Microsoft Purview
 
-As part of your pilot project for Adatum, you will create a retention policy in the Microsoft PureView Portal to preserve the content of all Exchange Online mailboxes from deletion for 7 years after the last modification. 
+As part of your pilot project for Adatum, you will create a retention policy in the Microsoft Purview Portal to preserve the content of all Exchange Online mailboxes from deletion for 7 years after the last modification. 
 
-1. In **Microsoft Edge**, go to the [**Microsoft PureView**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
+1. In **Microsoft Edge**, go to the [**Microsoft Purview**](https://compliance.microsoft.com/).  Make sure that you are logged in as **Holly Dickson**.
 
 
 2. In the left navigation pane, click **Data lifecycle management** (you might need to click **... Show all** first) and then select the **Retention policies** tab.
