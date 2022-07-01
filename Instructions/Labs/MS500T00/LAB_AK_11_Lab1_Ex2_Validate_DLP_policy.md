@@ -20,8 +20,9 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 	- Add a subject: `DLP Policy Test`
 
-	- Message area: type `This customer has social security number: 123-45-6789`.
+	- Message area: type `This customer has social security number: 489-36-8350`.
 
+	> **Note**: The SSN used is ficticious and sourced from a public repository of sample data for Data Loss Prevention policies. Do **not** enter your personal information when testing these policies.
 
 5. Select **Send.**
 
@@ -33,7 +34,7 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 	- Add a subject: `multiple SSN test`
 
-	- Message area: `SSN = 123 45 6789 and another customer SSN 111 11 1111 and a third 222 22 2222`
+	- Message area: `SSN = 489-36-8350 and another customer SSN 514-14-8905 and a third 690-05-5315`
 
 8. Select **Send.**
 
