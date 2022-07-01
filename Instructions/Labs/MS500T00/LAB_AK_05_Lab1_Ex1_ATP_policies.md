@@ -12,13 +12,15 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 3. In the **Microsoft 365 Security**, in the left navigation pane, select **Policies & rules** than select **Threat policies**.
 
-4. In the **Threat policies** window, select **Safe links**.
+4. In the **Threat policies** window, select **Tenant Allow/Block List**.
 
-5. In the **Safe links** window, click **Global Settings**.
+5. In the **Tenant Allow/Block List** window, select **URLs**.
 
-6. In the **Global settings for users included in active Safe Links policies** window, under the **Block the following URLs** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
+6. In the **Block URLs** window, under the **Add URLs with wildcards** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
 
-7. Select **Save**.
+7. Select **Add**.
+
+1. In the breadcrumbs path, select **Threat policies**, and then select **Safe links**.
 
 8. Select the **+ Create** to add a new recipient policy.
 
