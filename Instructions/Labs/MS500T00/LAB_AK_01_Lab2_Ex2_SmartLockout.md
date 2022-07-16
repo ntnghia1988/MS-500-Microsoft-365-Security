@@ -52,6 +52,8 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 			- `Never4get!!`
 
+	- Change the **Mode** slider bar to **Enforced** 
+
 14. Select **Save** on the menu bar at the top of the page.
 
 15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Password**.
