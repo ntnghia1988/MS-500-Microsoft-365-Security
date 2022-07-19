@@ -2,6 +2,17 @@
 
 You have a Global Admin account set up for Holly Dickson, and you&#39;re signed into Microsoft 365 as Holly. In this phase of your pilot project for Adatum, you want to edit an existing ATP Safe Links policy, and then create a Safe Attachments policy and turn on Advanced Threat Protection for SharePoint, OneDrive, and Microsoft Teams. You will also validate both policies to ensure they work properly.
 
+**Note**  If in Azure Active Directory Groups, you don't see a group named **All Company**, complete the following steps.  Otherwise start on **Task 1**
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
+2. Open a new browser tab and navigate to **https://teams.microsoft.com**
+3. In the lower left, click **Join or create a team**
+4. Click **Create team**
+5. Click **From scratch**
+6. Click **Org-wide**
+7. Replace the default team name with **All Company**
+8. Click **Create**.
+This will add all users as members of the new team
+
 ### Task 1 – Create a Safe Links Policy
 
 In this task, you will add the URL **http://tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.
@@ -14,7 +25,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 4. In the **Threat policies** window, select **Tenant Allow/Block List**.
 
-5. In the **Tenant Allow/Block List** window, select **URLs**.
+5. In the **Tenant Allow/Block List** window, select **URLs** and then click **+ Block**.
 
 6. In the **Block URLs** window, under the **Add URLs with wildcards** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
 
