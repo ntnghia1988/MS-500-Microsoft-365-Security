@@ -77,6 +77,7 @@ You can view the status of your pending requests to activate.
 1.  Click **Azure AD Roles**.
 
 1.  Click **Pending requests** to see a list of your requests.
+ **Note:** The Pending request will be empty as the Billing Administrator role settings were not modified to require approval.
 
 
 ### Task 4: Deactivate a role
