@@ -3,33 +3,7 @@
 
 Holly Dickson is concerned that some users in her organization may require education about phishing attacks.  In this lab you will use the Microsoft 365 Attack simulator to determine your users' susceptibility to phishing attacks.
 
-
-### Task 1: Enable Mulit-factor authentication for Holly Dickson
-
-
-1.  On LON-CL1, Go to the Office 365 Security & Compliance center `https://protection.office.com` and login as **Holly Dickson**.
-
-2.  Click **Threat management**, and then click **Attack simulator**.
-
-3.  Notice the warning that you must enable multi-factor authentication (MFA).  You are about to do a simulated attack and the system wants to confirm your credentials. This is a requirement of the attack simulator. Let's enable MFA for Holly Dickson. Go to your browser tab with the Microsoft 365 admin center or open a new browser tab to `https://admin.microsoft.com`.
-
-	**Note:** You may not get this warning if you enabled MFA for Holly in an earlier lab and are using the same tenant.  If this is the case you may skip ahead to the next task.
-
-4.  On the left select **Users** and then select **Active users**.
-
-5. On the Active users screen on the top pane, click **Multi-factor authentication**.
-
-7.  In the multi-factor authentication screen View **Global Administrators** then select **Holly Dickson** and select **Enable** under quick steps.
-
-8.  In the About enabling multi-factor auth screen, select the **enable multi-factor auth button**.
-
-9.  In the Updates successful screen click **Close**.
-
-10.  Close the browser session.  Open a new browser and open the Office 365 Security & Compliance portal and login again as Holly Dickson.  Now you should be asked for multi-factor credentials as part of the login process.
-
-	**Note:** it may take several minutes for this MFA setting to propagate your tenant.  If the **Launch Attack** button is not available in Attack Simulator then wait a few minutes and login again as Holly Dickson. If you are not able to satisfy the MFA requirements with your own mobile device you will not be able to complete this lab.
-
-### Task 2: Configure and launch a Spear Phishing attack
+### Task 1: Configure and launch a Spear Phishing attack
 
 1. Go to [Microsoft 365 security center - Attack simulation training](https://security.microsoft.com/attacksimulator) and login as **Holly Dickson**.
 
